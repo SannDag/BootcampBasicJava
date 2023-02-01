@@ -10,8 +10,6 @@ public class Ejercicio1 {
     }
 
     public static double precioMasIva(double precio){
-        double iva = 1.21;
-        double resultado = precio * iva;
-        return resultado;
+        return precio * 1.21;
     };
 }
